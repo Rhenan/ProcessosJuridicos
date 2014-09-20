@@ -7,18 +7,17 @@ public class Advogado extends Pessoa
 {
     private String nrOab;
     private String estadoOab;
-    
+
     /**
-     *
+     * Atribue valores de Pessoa além dos atributos de Advogados ao ser instanciada
      * @param nome
      * @param endereco
      * @param telefone
      * @param nrOab
      * @param estadoOab
      */
-    public void atribuirValores(String nome, String endereco, String telefone, String nrOab, String estadoOab)
-    {
-        super.atribuirValores(nome, endereco, telefone);
+    public Advogado(String nome, String endereco, String telefone, String nrOab, String estadoOab) {
+        super(nome, endereco, telefone);
         this.nrOab = nrOab;
         this.estadoOab = estadoOab;
     }

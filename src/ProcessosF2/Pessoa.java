@@ -8,15 +8,14 @@ public class Pessoa
     private String nome;
     private String endereco;
     private String telefone;
-    
+
     /**
-     * Atribui dados pessoais a Pessoa
+     * Atribue valores a Pessoa ao ser instanciada
      * @param nome
      * @param endereco
      * @param telefone
      */
-    public void atribuirValores(String nome, String endereco, String telefone)
-    {
+    public Pessoa(String nome, String endereco, String telefone) {
         this.nome = nome;
         this.endereco = endereco;
         this.telefone = telefone;

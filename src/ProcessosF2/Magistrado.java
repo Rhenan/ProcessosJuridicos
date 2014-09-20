@@ -7,19 +7,17 @@ public class Magistrado extends Pessoa
 {
     private String matricula;
     private String orgaoJulgador;
-    
+
     /**
-     * Atribui valores para os atribudos herdados de pessoas
+     * Atribue valores de Pessoa além dos atributos de Magistradosß ao ser instanciada
      * @param nome
      * @param endereco
      * @param telefone
-     * e para os atributos de Magistrado
      * @param matricula
      * @param orgaoJulgador
      */
-    public void atribuirValores(String nome, String endereco, String telefone, String matricula, String orgaoJulgador)
-    {
-        super.atribuirValores(nome, endereco, telefone);
+    public Magistrado(String nome, String endereco, String telefone, String matricula, String orgaoJulgador) {
+        super(nome, endereco, telefone);
         this.matricula = matricula;
         this.orgaoJulgador = orgaoJulgador;
     }
