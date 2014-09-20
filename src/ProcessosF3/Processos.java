@@ -1,10 +1,9 @@
-package ProcessosF1;
-
+package ProcessosF3;
 class Processos {
 
     public static void main(String args[]) {
         
-        System.out.println("Usando método EXIBIR da classe mae");
+        System.out.println("Usando polimorfismo com SetAndGet");
         System.out.println("----------");
         
         // Instancia classe Pessoa criando objeto joao

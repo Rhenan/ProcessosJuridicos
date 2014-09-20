@@ -1,10 +1,9 @@
-package ProcessosF1;
-
+package ProcessosF2;
 class Processos {
 
     public static void main(String args[]) {
         
-        System.out.println("Usando método EXIBIR da classe mae");
+        System.out.println("Usando Construtor de Classes");
         System.out.println("----------");
         
         // Instancia classe Pessoa criando objeto joao
